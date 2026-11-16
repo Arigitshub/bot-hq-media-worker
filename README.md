@@ -6,7 +6,8 @@ This repository contains only the inference worker. It contains no application
 accounts, private files, provider keys, billing data, or user conversations.
 
 The first A40 trial produced a valid 512 px image, a 2.0625-second 512x288 MP4,
-and a 24 kHz speech WAV. Those tests do not establish production reliability or
+a 24 kHz speech WAV, and the expected transcript of a known spoken phrase.
+Those tests do not establish production reliability or
 quality parity with leading commercial services. The deployment image must pass
 its own smoke tests before public requests are enabled.
 
@@ -46,6 +47,10 @@ if several endpoints share one spending budget.
 Kokoro and Whisper run on CPU. `install-voice-cloud.sh` installs a loopback-only,
 authenticated service on an existing Ubuntu cloud machine. It must not be run
 on a user's personal PC. It does not create a cloud machine or purchase credits.
+The Supervisor program runs under its own unprivileged UID. Each disposable
+model process has a 4-GiB address-space limit, 120/125-second CPU-time limit,
+one CPU affinity and 300-second wall deadline. These are workload limits, not
+a subscription or billing cap. Test actual RAM and speech latency on the host.
 
 Dependencies are pinned directly; transitive versions are recorded at build.
 Run offline tests with `python3 -m unittest discover -s tests -v`. Model inference

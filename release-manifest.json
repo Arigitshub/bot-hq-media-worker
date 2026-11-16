@@ -16,8 +16,8 @@
     "bytes": 1076
   },
   "README.md": {
-    "sha256": "5b38ba512eaac487ce17f4d7e4400df30cb087a32ad336d556b60ea0389baf69",
-    "bytes": 3080
+    "sha256": "d720bf6e158402de3fd8cbff586eccde92e14d674c87346be49a6361af4dcd1a",
+    "bytes": 3441
   },
   "THIRD_PARTY_NOTICES.md": {
     "sha256": "dedfcca982b486c6dc0d9606ed420b6eba954f1b1c9d1aca9b7e4c911c9b1ea5",
@@ -32,8 +32,8 @@
     "bytes": 9231
   },
   "install-voice-cloud.sh": {
-    "sha256": "2adb72a1899fc75896d75bfa1510005cebe6224b2c9ded1470a37c59a837bbdb",
-    "bytes": 4417
+    "sha256": "1f52260f4b3c0bf08029f461491ffe1ff4aaf906f8053fa90fa8df018a717e65",
+    "bytes": 4448
   },
   "models.json": {
     "sha256": "c2c20bf3c5ce8095cf0dc78976bba36a4036ff513b72e84ed05fea706d5ceaf5",
@@ -44,8 +44,8 @@
     "bytes": 3852
   },
   "requirements-cpu.txt": {
-    "sha256": "9453acaaad08c491e2b9f2788e97df5871bf6d823c34c91ca5ef31c2a9708b5f",
-    "bytes": 389
+    "sha256": "7559ce127a771d4445962ee04ee7c48a17fc9ffb47bb8540f0f93ab49fe667ed",
+    "bytes": 482
   },
   "requirements.txt": {
     "sha256": "daf29f764fe7509e6e1f04d3c1ececc2a11f3985d640c522a5b2eef1f1df8971",
@@ -71,8 +71,16 @@
     "sha256": "3c87d4e8a62d2704cab3f517d055df945ee656de0a3b223abd564c81b519b740",
     "bytes": 2884
   },
+  "tests/test_voice_limits.py": {
+    "sha256": "c4983132e25e52ad436ce8548d63b4f8b9616d3818d8a83408c19c73ed94e154",
+    "bytes": 1242
+  },
   "tests/test_worker.py": {
     "sha256": "ca2656408f560e702316fc07896885f99988344f61d9d68cb784a5cde1d042ac",
     "bytes": 10690
+  },
+  "voice_server.py": {
+    "sha256": "4e354a5acea5573b9e765919595a8fbdf590e67a7ec9bdc001409a4255957e0d",
+    "bytes": 1391
   }
 }
