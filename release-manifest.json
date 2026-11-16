@@ -1,0 +1,78 @@
+{
+  ".dockerignore": {
+    "sha256": "1a2d4030ed5ef8ac5592b641f541ece14d10f88be50000eb58bb6ffa36e7cabf",
+    "bytes": 53
+  },
+  ".github/workflows/publish-image.yml": {
+    "sha256": "12cf6fa4f1290d29512733099b646472f2aa477e87dec8ba9d3e4d9e9141829d",
+    "bytes": 3005
+  },
+  "Dockerfile": {
+    "sha256": "d88c09a8e5c21ad93acb8daad8a99bd850f6d06c30b6addfbecaff2ee5c52217",
+    "bytes": 1516
+  },
+  "LICENSE": {
+    "sha256": "7672e379821d195a57f5a2ffb4b0b5a9ca198a31193e7c294b10e28d3ee23fe1",
+    "bytes": 1076
+  },
+  "README.md": {
+    "sha256": "5b38ba512eaac487ce17f4d7e4400df30cb087a32ad336d556b60ea0389baf69",
+    "bytes": 3080
+  },
+  "THIRD_PARTY_NOTICES.md": {
+    "sha256": "dedfcca982b486c6dc0d9606ed420b6eba954f1b1c9d1aca9b7e4c911c9b1ea5",
+    "bytes": 1940
+  },
+  "handler.py": {
+    "sha256": "f6b8f694a6048ab6482624f9a1a7b79d44867461df5a63cfd33f8a00bc7850e1",
+    "bytes": 457
+  },
+  "http_server.py": {
+    "sha256": "2a11b6e8b3fadd7f091e5843d8506aea3841a61556752a075f8f62c8ce9d436f",
+    "bytes": 9231
+  },
+  "install-voice-cloud.sh": {
+    "sha256": "2adb72a1899fc75896d75bfa1510005cebe6224b2c9ded1470a37c59a837bbdb",
+    "bytes": 4417
+  },
+  "models.json": {
+    "sha256": "c2c20bf3c5ce8095cf0dc78976bba36a4036ff513b72e84ed05fea706d5ceaf5",
+    "bytes": 1092
+  },
+  "policy.py": {
+    "sha256": "30bd84f2d22ca9739ff56396066fdf09144288a95bbca08341e50b2baa160e49",
+    "bytes": 3852
+  },
+  "requirements-cpu.txt": {
+    "sha256": "9453acaaad08c491e2b9f2788e97df5871bf6d823c34c91ca5ef31c2a9708b5f",
+    "bytes": 389
+  },
+  "requirements.txt": {
+    "sha256": "daf29f764fe7509e6e1f04d3c1ececc2a11f3985d640c522a5b2eef1f1df8971",
+    "bytes": 609
+  },
+  "runner.py": {
+    "sha256": "d10844ea1dd80c43ee26ff7af4d6acad11ca1bfe81e853ab414e6fa172d5c376",
+    "bytes": 3794
+  },
+  "runtime.py": {
+    "sha256": "33a1e3263fc4d914f3d43f075c63ea1be27026971a2e01413590da5539348504",
+    "bytes": 11192
+  },
+  "serverless_entry.py": {
+    "sha256": "515fb0552688a859dc6c6ea0e48f1baf52e08f995e953f8cfb9c64098a21a9f9",
+    "bytes": 2473
+  },
+  "tests/test_serverless_config.py": {
+    "sha256": "3ccabc0367dc98978fa24ed45cf41d4ffb9c852db556f2dea082610f748563f7",
+    "bytes": 2512
+  },
+  "tests/test_transcription_pcm.py": {
+    "sha256": "3c87d4e8a62d2704cab3f517d055df945ee656de0a3b223abd564c81b519b740",
+    "bytes": 2884
+  },
+  "tests/test_worker.py": {
+    "sha256": "ca2656408f560e702316fc07896885f99988344f61d9d68cb784a5cde1d042ac",
+    "bytes": 10690
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "verified_at_utc": "2026-11-16",
+  "image": {
+    "id": "Tongyi-MAI/Z-Image-Turbo",
+    "revision": "f332072aa78be7aecdf3ee76d5c247082da564a6",
+    "license": "Apache-2.0",
+    "width": 512, "height": 512, "steps": 9,
+    "source": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo"
+  },
+  "video": {
+    "id": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
+    "revision": "0fad780a534b6463e45facd96134c9f345acfa5b",
+    "license": "Apache-2.0",
+    "width": 512, "height": 288, "frames": 33, "fps": 16, "steps": 20,
+    "source": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B-Diffusers"
+  },
+  "transcribe": {
+    "id": "Systran/faster-whisper-base",
+    "revision": "ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66",
+    "license": "MIT",
+    "max_seconds": 60,
+    "source": "https://huggingface.co/Systran/faster-whisper-base"
+  },
+  "speech": {
+    "id": "hexgrad/Kokoro-82M",
+    "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "license": "Apache-2.0",
+    "voice": "af_heart", "sample_rate": 24000, "max_characters": 600,
+    "source": "https://huggingface.co/hexgrad/Kokoro-82M"
+  }
+}
